@@ -1,0 +1,10 @@
+<aura:component extends="c:PracticeP3Cmp_2Super">
+
+    <aura:set attribute="DetailInfoFields">
+        <lightning:input type="text" label=" Name" value="{!v.record.Name}"/>
+        <lightning:input type="text" label="Website" value="{!v.record.Website}"/>
+        <lightning:input type="text" label="NumberOfEmployees" value="{!v.record.NumberOfEmployees}"/>
+        <lightning:input type="text" label="Phone" value="{!v.record.Phone}"/>
+    </aura:set>
+
+</aura:component>
